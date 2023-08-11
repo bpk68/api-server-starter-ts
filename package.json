@@ -1,0 +1,43 @@
+{
+  "name": "api-server-starter-ts",
+  "version": "1.0.0",
+  "description": "A lightweight starter kit for building a Node-based API server using TypeScript",
+  "main": "server.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpk68/api-server-starter-ts.git"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "api-server",
+    "express",
+    "starter kit"
+  ],
+  "author": "Rob Kendal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bpk68/api-server-starter-ts/issues"
+  },
+  "homepage": "https://github.com/bpk68/api-server-starter-ts#readme",
+  "_moduleAliases": {
+    "@controllers": "./server/controllers",
+    "@routes": "./server/routes",
+    "@data": "./data"
+  },
+  "scripts": {
+    "start": "nodemon server.ts",
+    "dev:alt": "ts-node server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.4.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "module-alias": "^2.2.3",
+    "nodemon": "^3.0.1"
+  }
+}

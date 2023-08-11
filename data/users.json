@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "name": "king arthur",
+      "password": "password1",
+      "profession": "king",
+      "id": 1
+    },
+    {
+      "name": "rob kendal",
+      "password": "password3",
+      "profession": "code fiddler",
+      "id": 2
+    },
+    {
+      "name": "ash ketchum",
+      "password": "pikapika",
+      "profession": "pokemon botherer",
+      "id": 3
+    }
+  ]
+}
