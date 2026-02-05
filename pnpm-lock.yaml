@@ -10,7 +10,7 @@ dependencies:
     version: 4.19.2
   module-alias:
     specifier: ^2.2.3
-    version: 2.2.3
+    version: 2.3.4
   nodemon:
     specifier: ^3.0.1
     version: 3.1.0
@@ -601,8 +601,8 @@ packages:
       brace-expansion: 1.1.11
     dev: false
 
-  /module-alias@2.2.3:
-    resolution: {integrity: sha512-23g5BFj4zdQL/b6tor7Ji+QY4pEfNH784BMslY9Qb0UnJWRAt+lQGLYmRaM0KDBwIG23ffEBELhZDP2rhi9f/Q==}
+  /module-alias@2.3.4:
+    resolution: {integrity: sha512-bOclZt8hkpuGgSSoG07PKmvzTizROilUTvLNyrMqvlC9snhs7y7GzjNWAVbISIOlhCP1T14rH1PDAV9iNyBq/w==}
     dev: false
 
   /ms@2.0.0:
